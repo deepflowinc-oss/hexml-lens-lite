@@ -1,0 +1,33 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.37.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           hexml-lens-lite
+version:        0.1.0.0
+description:    Some great library and/or tool made by DeepFlow, Inc.
+author:         DeepFlow, Inc.
+maintainer:     DeepFlow, Inc.
+copyright:      (c) 2020, DeepFlow, Inc.
+license:        AllRightsReserved
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+library
+  exposed-modules:
+      Text.XML.Hexml.Lens.Lite
+  other-modules:
+      Paths_hexml_lens_lite
+  hs-source-dirs:
+      src
+  ghc-options: -Wall
+  build-depends:
+      base >=4.7 && <5
+    , bytestring
+    , hexml
+    , lens
+  default-language: GHC2021
