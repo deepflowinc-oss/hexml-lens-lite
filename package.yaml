@@ -1,9 +1,10 @@
 name:                hexml-lens-lite
 version:             0.1.0.0
-license:             AllRightsReserved
+license:             BSD3
 author:              "DeepFlow, Inc."
 maintainer:          "DeepFlow, Inc."
 copyright:           "(c) 2020, DeepFlow, Inc."
+github:               deepflowinc-oss/hexml-lens-lite
 
 extra-source-files:
 - README.md
